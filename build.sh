@@ -12,9 +12,10 @@ rm -rf .build
 git checkout flex/main
 git rm -q *.json
 mv flex-endpoint/*.json .
-git add *.json
 cp -a flex-endpoint/archived .
-git add archived/
-git commit -m 'Update Flex endpoint' || true
 rm -rf flex-endpoint
+git add *.json
+git add archived/
+#git commit -m 'Update Flex endpoint' || true
+#
 # git push origin -f flex/main
