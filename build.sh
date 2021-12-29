@@ -1,6 +1,6 @@
 mkdir -p .build && cd .build
 # wget -q -O recipes-checker.zip https://codeload.github.com/symfony-tools/recipes-checker/zip/refs/heads/main
-curl https://codeload.github.com/symfony-tools/recipes-checker/zip/refs/heads/main -o recipes-checker.zip
+curl https://codeload.github.com/oro-flex/recipes-checker/zip/refs/heads/main -o recipes-checker.zip
 unzip recipes-checker.zip
 cd recipes-checker-main
 composer install --ansi --no-dev
