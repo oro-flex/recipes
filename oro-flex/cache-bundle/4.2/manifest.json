@@ -3,7 +3,7 @@
         "Oro\\Bundle\\CacheBundle\\OroCacheBundle": ["prod"]
     },
     "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
+        "config": "%CONFIG_DIR%/"
     },
     "env": {
         "WEB_SOCKET_PORT": "6666"
