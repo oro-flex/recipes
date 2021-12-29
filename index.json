@@ -1,6 +1,10 @@
 {
     "aliases": [],
-    "recipes": [],
+    "recipes": {
+        "oro-flex/cache-bundle": [
+            "4.2"
+        ]
+    },
     "versions": [],
     "branch": "master",
     "is_contrib": false,
