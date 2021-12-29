@@ -18,7 +18,7 @@
                 ]
             },
             "files": {
-                "config\\packages\\oro_cache.yaml": {
+                "config/packages/oro_cache.yaml": {
                     "contents": [
                         "framework:",
                         "    cache:",
