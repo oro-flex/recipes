@@ -1,0 +1,8 @@
+{
+    "bundles": {
+        "Oro\\Bundle\\MessageQueueBundle\\OroMessageQueueBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    }
+}
