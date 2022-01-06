@@ -9,6 +9,9 @@
         ],
         "oro-flex/gaufrette-bundle": [
             "4.2"
+        ],
+        "oro-flex/message-queue-bundle": [
+            "4.2"
         ]
     },
     "versions": [],
