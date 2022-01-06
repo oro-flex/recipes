@@ -1,0 +1,24 @@
+oro_batch:
+    # 'Enables/Disables writing of batch log files for each batch job in var/logs/batch directory'
+    log_batch: false
+    # Sets the time interval to keep the batch job records in the database
+    cleanup_interval: '1 week'
+
+doctrine:
+    dbal:
+        connections:
+            batch:
+                schema_filter: ~akeneo_~
+                url: '%env(resolve:DATABASE_URL)%'
+                charset: UTF8
+    orm:
+        entity_managers:
+            batch:
+                connection: batch
+                mappings:
+                    OroBatchBundle:
+                        mapping: true
+                        is_bundle: true
+                metadata_cache_driver:
+                    type: service
+                    id: oro_batch.cache.doctrine_metadata
