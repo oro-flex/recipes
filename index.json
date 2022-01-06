@@ -6,6 +6,9 @@
         ],
         "oro-flex/cache-bundle": [
             "4.2"
+        ],
+        "oro-flex/gaufrette-bundle": [
+            "4.2"
         ]
     },
     "versions": [],
