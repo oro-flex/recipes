@@ -1,5 +1,5 @@
 parameters:
-    message_queue_transport: DBAL
+    message_queue_transport: dbal
     message_queue_transport_config: ~
 
 doctrine:
