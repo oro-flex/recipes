@@ -1,6 +1,9 @@
 {
     "aliases": [],
     "recipes": {
+        "oro-flex/batch-bundle": [
+            "4.2"
+        ],
         "oro-flex/cache-bundle": [
             "4.2"
         ]
