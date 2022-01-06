@@ -1,0 +1,8 @@
+{
+    "bundles": {
+        "Oro\\Bundle\\GaufretteBundle\\OroGaufretteBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    }
+}
