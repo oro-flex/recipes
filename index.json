@@ -12,6 +12,9 @@
         ],
         "oro-flex/message-queue-bundle": [
             "4.2"
+        ],
+        "oro-flex/phpunit-bundle": [
+            "4.2"
         ]
     },
     "versions": [],

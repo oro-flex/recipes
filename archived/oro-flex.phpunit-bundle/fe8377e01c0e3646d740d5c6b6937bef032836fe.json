@@ -1,0 +1,34 @@
+{
+    "manifests": {
+        "oro-flex/phpunit-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Oro\\Bundle\\PhpUnitBundle\\OroPhpUnitBundle": [
+                        "test"
+                    ]
+                },
+                "post-install-output": [
+                    "<bg=blue;fg=white>                     </>",
+                    "<bg=blue;fg=white> Next: Configuration </>",
+                    "<bg=blue;fg=white>                     </>",
+                    "  * Configure your test parameters in <fg=green>config/packages/test/oro_phpunit.yaml</>"
+                ]
+            },
+            "files": {
+                "config/packages/test/oro_phpunit.yaml": {
+                    "contents": [
+                        "# @see \\Oro\\Component\\Testing\\Doctrine\\PersistentConnection::getConnectionId",
+                        "doctrine:",
+                        "    dbal:",
+                        "        connections:",
+                        "            default:",
+                        "                options: { ConnectionId: default }",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "fe8377e01c0e3646d740d5c6b6937bef032836fe"
+        }
+    }
+}
