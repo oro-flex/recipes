@@ -1,4 +1,5 @@
 <bg=blue;fg=white>                     </>
 <bg=blue;fg=white> Next: Configuration </>
 <bg=blue;fg=white>                     </>
-  * Configure your parameters in <fg=green>config/packages/oro_batch.yaml</>
+  * Configure your parameters in <fg=green>config/packages/oro_message_queue.yaml</>
+  * Configure your test parameters in <fg=green>config/packages/test/oro_message_queue.yaml</>

@@ -1,0 +1,5 @@
+{
+    "bundles": {
+        "Oro\\Bundle\\PhpUnitBundle\\OroPhpUnitBundle": ["test"]
+    }
+}
